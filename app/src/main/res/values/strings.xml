@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">魚判定アプリ</string>
+    <string name="main">魚判定アプリ</string>
+    <string name="month">6月</string>
+    <string name="move">画像判定</string>
+    <string name="han">判定画面</string>
+    <string name="his">履歴</string>
+    <string name="cal">旬の魚</string>
+    <string name="camera">カメラ</string>
+    <string name="return_sub">戻る</string>
+</resources>
