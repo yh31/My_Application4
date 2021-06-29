@@ -42,6 +42,10 @@
             android:name="com.example.myapplication4.History"
             android:label="@string/his" >
         </activity>
+        <activity
+            android:name="com.example.myapplication4.GridAdapter"
+            android:label="@string/cal" >
+        </activity>
     </application>
 
 </manifest>
