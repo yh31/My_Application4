@@ -18,7 +18,7 @@ import java.util.List;
 public class Calender extends AppCompatActivity {
 
     // 表示する画像の名前（拡張子無し）
-    private String[] members = {"a","b","c","d","e","f","g","h"};
+    private String[] members = {};
 
     // Resource IDを格納するarray
     private List<Integer> imgList = new ArrayList<>();
@@ -36,13 +36,13 @@ public class Calender extends AppCompatActivity {
         tv.setText(mon+"月"+day+"日の旬の魚");
         //画像表示
         if(3<= mon&&mon <=5){//春
-            //imgList = {};
+            //members = {};
         }else if(6<=mon&&mon<=8){//夏
-            //imgList = {};
+            //members = {};
         }else if(9<=mon&&mon<=11){//秋
-            //imgList = {};
+            //members = {};
         }else{//冬
-            //imgList = {};
+            //members = {};
         }
         // for-each member名をR.drawable.名前としてintに変換してarrayに登録
         for (String member: members){
