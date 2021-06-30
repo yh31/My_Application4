@@ -9,6 +9,7 @@
         android:targetSdkVersion="30" />
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -45,6 +46,10 @@
         <activity
             android:name="com.example.myapplication4.GridAdapter"
             android:label="@string/cal" >
+        </activity>
+        <activity
+            android:name="com.example.myapplication4.WebPage"
+            android:label="@string/han" >
         </activity>
     </application>
 
