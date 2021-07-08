@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0000CD"
+    android:background="#00BFFF"
     tools:context="com.example.myapplication4.Calender">
 
     <Button
@@ -12,31 +12,32 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/return_sub"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/gridview"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.036" />
+        app:layout_constraintTop_toTopOf="@+id/textView_mon"
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/textView_mon"
-        android:layout_width="249dp"
-        android:layout_height="36dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
         android:text="@string/month"
-        android:textSize="30sp"
         android:textColor="#000"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/return_button"
-        app:layout_constraintHorizontal_bias="0.135"
+        app:layout_constraintHorizontal_bias="0.257"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.036" />
+        app:layout_constraintVertical_bias="0.008" />
 
     <GridView
         android:id="@+id/gridview"
-        android:layout_width="422dp"
-        android:layout_height="525dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
         android:background="#888"
         android:gravity="center"
         android:horizontalSpacing="1dp"
@@ -45,6 +46,7 @@
         android:verticalSpacing="1dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView_mon"
         app:layout_constraintVertical_bias="1.0" />
