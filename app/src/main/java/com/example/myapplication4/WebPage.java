@@ -31,7 +31,7 @@ public class WebPage extends AppCompatActivity {
     //private static final String URL = "http://192.168.6.30:5000/";//wi-fi
     //private static final String URL = "http://127.0.0.1:5000/";//有線
     //private static final String URL = "http://10.0.2.2:5000/";//エミュレータ用
-    private static final String URL = "http://27.106.242.66:5000/";//愛媛フリーwi-fi
+    private static final String URL = "http://192.168.100.117:5000/";//愛媛フリーwi-fi
 
 
     private ValueCallback<Uri[]> filePathCallback;
